@@ -1,0 +1,45 @@
+/* Home Screen */
+.base {
+    position: relative;
+    width: 1280px;
+    height: 2050px;
+    background: #FFFFFF;
+}
+
+.top-txt {
+    position: absolute;
+    width: 753px;
+    height: 116px;
+    left: 263px;
+    top: 225px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 120%;
+    /* or 58px */
+
+    text-align: center;
+    letter-spacing: -0.5px;
+
+    /* text / primary */
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.search-bar {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 515px;
+    height: 54px;
+    left: 382px;
+    top: 360px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
