@@ -23,7 +23,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ClientComponent } from './register/client/client.component';
 import { ContractorComponent } from './register/contractor/contractor.component';
 import { SearchComponent } from './search/search.component';
-import { ProfileComponent } from './profile/profile.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ViewComponent } from './profile/view/view.component';
 import { EditComponent } from './profile/edit/edit.component';
@@ -37,7 +36,6 @@ import { EditComponent } from './profile/edit/edit.component';
     ClientComponent,
     ContractorComponent,
     SearchComponent,
-    ProfileComponent,
     DashboardComponent,
     ViewComponent,
     EditComponent
