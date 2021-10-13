@@ -1,4 +1,8 @@
-.cl-sign-up-screen {
+  body {
+    background-color: #e3e3e3;
+  }
+
+  .cl-sign-up-screen {
     align-items: center;
     background-color: var(--cultured-pearl);
     display: flex;
@@ -16,12 +20,13 @@
   }
   
   .cl-sign-up-screen .rectangle-26 {
-    background-color: var(--kashmir-blue);
+    background-color: #406D96;
     height: 56px;
     left: 1px;
     position: absolute;
     top: 0;
     width: 1280px;
+    /* vertical-align: middle; */
   }
   
   .cl-sign-up-screen .text-1-1 {
@@ -29,8 +34,9 @@
     letter-spacing: 0.15px;
     line-height: 22.4px;
     position: absolute;
-    top: 15px;
+    /* top: 15px; */
     white-space: nowrap;
+    color: white;
   }
   
   .cl-sign-up-screen .flex-row {
@@ -131,11 +137,12 @@
   
   .cl-sign-up-screen .search-bar {
     align-items: flex-start;
-    background-color: var(--white);
+    background-color: white;
     border-radius: 4px;
     display: flex;
     min-width: 755px;
     padding: 0 12px;
+    border: 1.1px solid #a8d0da;
   }
   
   .cl-sign-up-screen .active-1 {
@@ -175,10 +182,11 @@
   
   .cl-sign-up-screen .variantoutlined-x-icontextfalse {
     align-items: flex-start;
-    background-color: var(--white);
+    background-color: white;
     display: flex;
     min-width: 185px;
     padding: 0 12px;
+    border: 1.1px solid #a8d0da;
   }
   
   .cl-sign-up-screen .active {
@@ -215,16 +223,17 @@
   
   .cl-sign-up-screen .variantoutlined-x-icontextfalse-1 {
     align-items: flex-start;
-    background-color: var(--white);
+    background-color: white;
     display: flex;
     margin-left: 15px;
     min-width: 185px;
     padding: 0 12px;
+    border: 1.1px solid #a8d0da;
   }
   
   .cl-sign-up-screen .typebasic-varia-ary-stateactive {
     align-items: flex-start;
-    background-color: var(--white);
+    background-color: white;
     border: 1.1px solid #a8d0da;
     border-radius: 4.38px;
     display: flex;
@@ -289,12 +298,13 @@
   
   .cl-sign-up-screen .search-bar-1 {
     align-items: flex-start;
-    background-color: var(--white);
+    background-color: white;
     border-radius: 4px;
     display: flex;
     margin-left: 14px;
     min-width: 332px;
     padding: 0 12px;
+    border: 1.1px solid #a8d0da;
   }
   
   .cl-sign-up-screen .active-2 {
@@ -329,7 +339,7 @@
   
   .cl-sign-up-screen .card-v1-1 {
     align-items: flex-start;
-    background-color: var(--white);
+    background-color: white;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -421,7 +431,7 @@
   
   .cl-sign-up-screen .card-v1 {
     align-items: flex-start;
-    background-color: var(--white);
+    background-color: white;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -474,7 +484,7 @@
   
   .cl-sign-up-screen .card {
     align-items: center;
-    background-color: var(--white);
+    background-color: white;
     border-radius: 4px;
     display: flex;
     margin-left: 3.0px;
@@ -534,6 +544,8 @@
     min-height: 30px;
     min-width: 157px;
     white-space: nowrap;
+    font-size:x-large;
+    color: orange;
   }
   
   .cl-sign-up-screen .landscape-artist {
@@ -543,6 +555,7 @@
     min-height: 23px;
     min-width: 126px;
     white-space: nowrap;
+    color: grey;
   }
   
   .cl-sign-up-screen .typography-3 {
@@ -613,6 +626,7 @@
     margin-top: 8px;
     min-width: 732px;
     padding: 0 5px;
+    color: teal;
   }
   
   .cl-sign-up-screen .read-more {
@@ -642,7 +656,7 @@
   
   .cl-sign-up-screen .card-v2 {
     align-items: flex-start;
-    background-color: var(--white);
+    background-color: white;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -726,7 +740,7 @@
   
   .cl-sign-up-screen .card-v2-1 {
     align-items: flex-start;
-    background-color: var(--white);
+    background-color: white;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
