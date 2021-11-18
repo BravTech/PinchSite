@@ -1,0 +1,824 @@
+  body {
+    background-color: #e3e3e3;
+  }
+
+  .cl-sign-up-screen {
+    align-items: center;
+    background-color: var(--cultured-pearl);
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    overflow: hidden;
+    width: 1280px;
+  }
+  
+  .cl-sign-up-screen .overlap-group {
+    height: 56px;
+    margin-left: 1.0px;
+    position: relative;
+    width: 1281px;
+  }
+  
+  .cl-sign-up-screen .rectangle-26 {
+    background-color: #406D96;
+    height: 56px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 1280px;
+    /* vertical-align: middle; */
+  }
+  
+  .cl-sign-up-screen .text-1-1 {
+    left: 484px;
+    letter-spacing: 0.15px;
+    line-height: 22.4px;
+    position: absolute;
+    /* top: 15px; */
+    white-space: nowrap;
+    color: white;
+  }
+  
+  .cl-sign-up-screen .flex-row {
+    align-items: center;
+    display: flex;
+    margin-left: 3.0px;
+    margin-top: 20px;
+    min-width: 1101px;
+  }
+  
+  .cl-sign-up-screen .rectangle-17 {
+    background-color: var(--heat-wave);
+    border-radius: 25px;
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+  }
+  
+  .cl-sign-up-screen .group-75 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 534px;
+    min-width: 377px;
+  }
+  
+  .cl-sign-up-screen .browse {
+    letter-spacing: 0.15px;
+    line-height: 25.6px;
+    min-height: 26px;
+    min-width: 56px;
+    white-space: nowrap;
+  }
+  
+  .cl-sign-up-screen .typography-1 {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 26px;
+    margin-left: 29px;
+    min-width: 152px;
+  }
+  
+  .cl-sign-up-screen .become-a-contractor {
+    letter-spacing: 0.15px;
+    line-height: 25.6px;
+    min-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .cl-sign-up-screen .sign-up-log-in {
+    letter-spacing: 0.15px;
+    line-height: 25.6px;
+    margin-left: 30px;
+    min-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .cl-sign-up-screen .content-typeicon-variantcircle {
+    align-items: center;
+    background-color: var(--yellow-orange);
+    border-radius: 64px;
+    display: flex;
+    height: 40px;
+    margin-left: 30px;
+    min-width: 40px;
+    padding: 0 8px;
+  }
+  
+  .cl-sign-up-screen .filledtogglestar {
+    align-items: flex-start;
+    display: flex;
+    height: 24px;
+    padding: 2px;
+    width: 24px;
+  }
+  
+  .cl-sign-up-screen .vector {
+    height: 19px;
+    width: 20px;
+  }
+  
+  .cl-sign-up-screen .flex-row-1 {
+    align-items: flex-start;
+    display: flex;
+    height: 122px;
+    margin-left: 3.0px;
+    margin-top: 24px;
+    min-width: 1101px;
+  }
+  
+  .cl-sign-up-screen .flex-col {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 122px;
+    width: 755px;
+  }
+  
+  .cl-sign-up-screen .search-bar {
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    min-width: 755px;
+    padding: 0 12px;
+    border: 1.1px solid #a8d0da;
+  }
+  
+  .cl-sign-up-screen .active-1 {
+    align-items: flex-start;
+    display: flex;
+    height: 54px;
+    overflow: hidden;
+    padding: 17px 0;
+    width: 731px;
+  }
+  
+  .cl-sign-up-screen .what-are-you-looking {
+    color: #000000e3;
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-s2);
+    height: 19px;
+    letter-spacing: 0.15px;
+    line-height: 19px;
+    white-space: nowrap;
+    width: 708px;
+  }
+  
+  .cl-sign-up-screen .vector-4 {
+    align-self: center;
+    height: 18px;
+    margin-left: 5px;
+    margin-top: 0;
+    width: 18px;
+  }
+  
+  .cl-sign-up-screen .flex-row-2 {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 21px;
+    min-width: 660px;
+  }
+  
+  .cl-sign-up-screen .variantoutlined-x-icontextfalse {
+    align-items: flex-start;
+    background-color: white;
+    display: flex;
+    min-width: 185px;
+    padding: 0 12px;
+    border: 1.1px solid #a8d0da;
+  }
+  
+  .cl-sign-up-screen .active {
+    align-items: center;
+    display: flex;
+    height: 46px;
+    padding: 10px 0;
+    width: 161px;
+  }
+  
+  .cl-sign-up-screen .filters {
+    height: 19px;
+    letter-spacing: 0.15px;
+    line-height: 19px;
+    margin-top: 1.0px;
+    white-space: nowrap;
+    width: 131px;
+  }
+  
+  .cl-sign-up-screen .fillednavigatio-arrow-drop-down {
+    align-items: flex-end;
+    align-self: flex-end;
+    display: flex;
+    height: 24px;
+    margin-left: 6px;
+    padding: 9px 7px;
+    width: 24px;
+  }
+  
+  .cl-sign-up-screen .vector-1 {
+    height: 5px;
+    width: 10px;
+  }
+  
+  .cl-sign-up-screen .variantoutlined-x-icontextfalse-1 {
+    align-items: flex-start;
+    background-color: white;
+    display: flex;
+    margin-left: 15px;
+    min-width: 185px;
+    padding: 0 12px;
+    border: 1.1px solid #a8d0da;
+  }
+  
+  .cl-sign-up-screen .typebasic-varia-ary-stateactive {
+    align-items: flex-start;
+    background-color: white;
+    border: 1.1px solid #a8d0da;
+    border-radius: 4.38px;
+    display: flex;
+    margin-left: 15px;
+    overflow: hidden;
+    width: 260px;
+  }
+  
+  .cl-sign-up-screen .overlap-group1 {
+    height: 47px;
+    margin-top: -0.24px;
+    position: relative;
+    width: 171px;
+  }
+  
+  .cl-sign-up-screen .base-button-group {
+    align-items: flex-start;
+    background-color: #d8e8e8fc;
+    display: flex;
+    height: 47px;
+    justify-content: flex-end;
+    left: 0;
+    min-width: 170px;
+    padding: 8.8px 22.1px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .cl-sign-up-screen .contractors {
+    color: var(--kashmir-blue);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    letter-spacing: 0.50px;
+    line-height: 28.5px;
+    min-height: 29px;
+    white-space: nowrap;
+  }
+  
+  .cl-sign-up-screen .vertical {
+    height: 47px;
+    left: 169px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+  }
+  
+  .cl-sign-up-screen .rfps {
+    align-self: center;
+    color: #406d968a;
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    letter-spacing: 0.50px;
+    line-height: 28.5px;
+    margin-bottom: 0;
+    margin-left: 23px;
+    min-height: 29px;
+    min-width: 44px;
+    white-space: nowrap;
+  }
+  
+  .cl-sign-up-screen .search-bar-1 {
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    margin-left: 14px;
+    min-width: 332px;
+    padding: 0 12px;
+    border: 1.1px solid #a8d0da;
+  }
+  
+  .cl-sign-up-screen .active-2 {
+    align-items: center;
+    display: flex;
+    height: 54px;
+    width: 308px;
+  }
+  
+  .cl-sign-up-screen .location {
+    height: 19px;
+    letter-spacing: 0.15px;
+    line-height: 19px;
+    margin-bottom: 1.0px;
+    white-space: nowrap;
+    width: 288px;
+  }
+  
+  .cl-sign-up-screen .vector-5 {
+    height: 20px;
+    margin-left: 6px;
+    width: 14px;
+  }
+  
+  .cl-sign-up-screen .flex-row-3 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 3.0px;
+    margin-top: 28px;
+    min-width: 1101px;
+  }
+  
+  .cl-sign-up-screen .card-v1-1 {
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    overflow: hidden;
+    width: 345px;
+  }
+  
+  .cl-sign-up-screen .card-media {
+    align-items: flex-start;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/60eb3038207ed0cf97df777d/releases/610dbb54ed597383daf12896/img/cardmedia@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    height: 194px;
+    overflow: hidden;
+    width: 345px;
+  }
+  
+  .cl-sign-up-screen .image-1 {
+    height: 460px;
+    margin-top: -133px;
+    object-fit: cover;
+    width: 345px;
+  }
+  
+  .cl-sign-up-screen .card-header {
+    align-items: center;
+    display: flex;
+    height: 86px;
+    min-width: 345px;
+    padding: 0 16px;
+  }
+  
+  .cl-sign-up-screen .avatar {
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/60eb3038207ed0cf97df777d/releases/610dbb54ed597383daf12896/img/avatar@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 64px;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .cl-sign-up-screen .text {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    min-height: 54px;
+    width: 234px;
+  }
+  
+  .cl-sign-up-screen .name {
+    letter-spacing: 0.15px;
+    line-height: 30px;
+    min-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .cl-sign-up-screen .typography {
+    align-items: center;
+    display: flex;
+    min-width: 117px;
+  }
+  
+  .cl-sign-up-screen .text-1 {
+    letter-spacing: 0.15px;
+    line-height: 20.0px;
+    margin-left: 2px;
+    min-height: 20px;
+    min-width: 22px;
+    white-space: nowrap;
+  }
+  
+  .cl-sign-up-screen .text-3 {
+    letter-spacing: 0.15px;
+    line-height: 22.9px;
+    margin-left: 5px;
+    min-height: 23px;
+    min-width: 156px;
+    white-space: nowrap;
+  }
+  
+  .cl-sign-up-screen .vector-2 {
+    height: 12px;
+    margin-left: 11px;
+    width: 8px;
+  }
+  
+  .cl-sign-up-screen .card-v1 {
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    margin-left: 33px;
+    overflow: hidden;
+    width: 345px;
+  }
+  
+  .cl-sign-up-screen .pexels-lisa-1453499-1 {
+    height: 273px;
+    margin-left: -38px;
+    margin-top: -39px;
+    object-fit: cover;
+    width: 407px;
+  }
+  
+  .cl-sign-up-screen .avatar-1 {
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/60eb3038207ed0cf97df777d/releases/610dbb54ed597383daf12896/img/avatar-1@2x.png);
+    background-size: 100% 100%;
+    border-radius: 64px;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .cl-sign-up-screen .landscaper {
+    letter-spacing: 0.15px;
+    line-height: 22.9px;
+    margin-left: 5px;
+    min-height: 23px;
+    min-width: 87px;
+    white-space: nowrap;
+  }
+  
+  .cl-sign-up-screen .pexels-vivint-solar-2850347-1 {
+    height: 231px;
+    margin-top: -14px;
+    object-fit: cover;
+    width: 345px;
+  }
+  
+  .cl-sign-up-screen .avatar-2 {
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/60eb3038207ed0cf97df777d/releases/610dbb54ed597383daf12896/img/avatar-2@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 64px;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .cl-sign-up-screen .card {
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    margin-left: 3.0px;
+    margin-top: 25px;
+    overflow: hidden;
+    width: 1101px;
+  }
+  
+  .cl-sign-up-screen .card-media-1 {
+    align-items: flex-start;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/60eb3038207ed0cf97df777d/releases/610dbb54ed597383daf12896/img/cardmedia-3@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    height: 250px;
+    overflow: hidden;
+    width: 345px;
+  }
+  
+  .cl-sign-up-screen .ronnie-george-z-13ro-unsplash-1 {
+    height: 293px;
+    margin-left: -29px;
+    margin-top: -31px;
+    object-fit: cover;
+    width: 438px;
+  }
+  
+  .cl-sign-up-screen .card-content-1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 222px;
+    padding: 8px 0;
+    width: 756px;
+  }
+  
+  .cl-sign-up-screen .text-4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16.0px;
+    margin-top: 8px;
+    min-height: 50px;
+    width: 724px;
+  }
+  
+  .cl-sign-up-screen .typography-2 {
+    align-items: center;
+    display: flex;
+    height: 30px;
+    min-width: 289px;
+  }
+  
+  .cl-sign-up-screen .name-1 {
+    letter-spacing: 0.15px;
+    line-height: 30px;
+    min-height: 30px;
+    min-width: 157px;
+    white-space: nowrap;
+    font-size:x-large;
+    color: orange;
+  }
+  
+  .cl-sign-up-screen .landscape-artist {
+    letter-spacing: 0.15px;
+    line-height: 22.9px;
+    margin-left: 8px;
+    min-height: 23px;
+    min-width: 126px;
+    white-space: nowrap;
+    color: grey;
+  }
+  
+  .cl-sign-up-screen .typography-3 {
+    align-items: center;
+    display: flex;
+    height: 20px;
+    min-width: 177px;
+  }
+  
+  .cl-sign-up-screen .sizesmall-statedefault-1 {
+    align-items: flex-start;
+    display: flex;
+    min-width: 90px;
+  }
+  
+  .cl-sign-up-screen .filledtogglestar-1 {
+    align-items: flex-start;
+    display: flex;
+    height: 18px;
+    padding: 1.1px 1px;
+    width: 18px;
+  }
+  
+  .cl-sign-up-screen .vector-3 {
+    height: 15px;
+    width: 16px;
+  }
+  
+  .cl-sign-up-screen .star {
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/60eb3038207ed0cf97df777d/releases/610dbb54ed597383daf12896/img/maskedstar@2x.svg);
+    background-size: 100% 100%;
+    height: 18px;
+    width: 18px;
+  }
+  
+  .cl-sign-up-screen .x-reviews {
+    letter-spacing: 0.15px;
+    line-height: 20.0px;
+    margin-left: 5px;
+    min-height: 20px;
+    min-width: 84px;
+    white-space: nowrap;
+  }
+  
+  .cl-sign-up-screen .card-content-2 {
+    align-items: center;
+    display: flex;
+    height: 92px;
+    margin-left: 8.0px;
+    margin-top: 16px;
+    padding: 0 14px;
+    width: 748px;
+  }
+  
+  .cl-sign-up-screen .text-6 {
+    letter-spacing: 0.15px;
+    line-height: 20.0px;
+    margin-left: 2px;
+    min-height: 60px;
+    width: 718px;
+  }
+  
+  .cl-sign-up-screen .left-actions {
+    align-items: center;
+    display: flex;
+    height: 32px;
+    margin-left: 8.0px;
+    margin-top: 8px;
+    min-width: 732px;
+    padding: 0 5px;
+    color: teal;
+  }
+  
+  .cl-sign-up-screen .read-more {
+    letter-spacing: 0.40px;
+    line-height: 24px;
+    min-height: 24px;
+    min-width: 83px;
+    white-space: nowrap;
+  }
+  
+  .cl-sign-up-screen .get-in-touch {
+    letter-spacing: 0.40px;
+    line-height: 24px;
+    margin-left: 16px;
+    min-height: 24px;
+    min-width: 99px;
+    white-space: nowrap;
+  }
+  
+  .cl-sign-up-screen .flex-row-4 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 3.0px;
+    margin-top: 25px;
+    min-width: 1101px;
+  }
+  
+  .cl-sign-up-screen .card-v2 {
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 169px;
+    overflow: hidden;
+    width: 535px;
+  }
+  
+  .cl-sign-up-screen .card-header-1 {
+    align-items: center;
+    display: flex;
+    height: 77px;
+    justify-content: flex-end;
+    min-width: 535px;
+    padding: 8px;
+  }
+  
+  .cl-sign-up-screen .avatar-3 {
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/60eb3038207ed0cf97df777d/releases/610dbb54ed597383daf12896/img/avatar-3@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 64px;
+    height: 40px;
+    margin-top: 8.0px;
+    width: 40px;
+  }
+  
+  .cl-sign-up-screen .text-2 {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    min-height: 53px;
+    width: 455px;
+  }
+  
+  .cl-sign-up-screen .typography-4 {
+    align-items: center;
+    display: flex;
+    height: 23px;
+    min-width: 336px;
+  }
+  
+  .cl-sign-up-screen .text-7 {
+    letter-spacing: 0.15px;
+    line-height: 22.9px;
+    min-height: 23px;
+    min-width: 156px;
+    white-space: nowrap;
+  }
+  
+  .cl-sign-up-screen .sizesmall-statedefault {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 3px;
+    min-width: 90px;
+  }
+  
+  .cl-sign-up-screen .masked-star {
+    height: 19px;
+    margin-top: -0.5px;
+    width: 18px;
+  }
+  
+  .cl-sign-up-screen .card-content {
+    align-items: center;
+    display: flex;
+    height: 92px;
+    padding: 0 14px;
+    width: 535px;
+  }
+  
+  .cl-sign-up-screen .address {
+    letter-spacing: 0.15px;
+    line-height: 20.0px;
+    margin-left: 2px;
+    min-height: 60px;
+    width: 505px;
+  }
+  
+  .cl-sign-up-screen .card-v2-1 {
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 169px;
+    margin-left: 31px;
+    overflow: hidden;
+    width: 535px;
+  }
+  
+  .cl-sign-up-screen .avatar-4 {
+    align-items: flex-start;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/60eb3038207ed0cf97df777d/releases/610dbb54ed597383daf12896/img/avatar-3@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 64px;
+    display: flex;
+    margin-top: 8.0px;
+    min-width: 40px;
+  }
+  
+  .cl-sign-up-screen .ellipse-54 {
+    height: 40px;
+    object-fit: cover;
+    width: 40px;
+  }
+  
+  .cl-sign-up-screen .typography-5 {
+    align-items: center;
+    display: flex;
+    height: 23px;
+    min-width: 329px;
+  }
+  
+  .cl-sign-up-screen .landscape-engineer {
+    letter-spacing: 0.15px;
+    line-height: 22.9px;
+    min-height: 23px;
+    min-width: 149px;
+    white-space: nowrap;
+  }
+  
+  .cl-sign-up-screen .text-8 {
+    letter-spacing: 0.15px;
+    line-height: 20.0px;
+    margin-left: 2px;
+    min-height: 60px;
+    width: 505px;
+  }
+  
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+  
+  @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,500");
+  
+  .screen a {
+    display: contents;
+    text-decoration: none;
+  }
+  
+  .container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+  }
+  
+  .container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+  }
+  
+  .valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
