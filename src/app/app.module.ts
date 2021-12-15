@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
@@ -15,6 +16,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSortModule } from '@angular/material/sort';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatButtonModule } from '@angular/material/button'; 
 import { DatePipe } from '@angular/common';
 import { LoginComponent } from './login/login.component';
 import { LandingComponent } from './landing/landing.component';
@@ -26,6 +28,7 @@ import { SearchComponent } from './search/search.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ViewComponent } from './profile/view/view.component';
 import { EditComponent } from './profile/edit/edit.component';
+import { COSignUpComponent } from './cosign-up/cosign-up.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,8 @@ import { EditComponent } from './profile/edit/edit.component';
     SearchComponent,
     DashboardComponent,
     ViewComponent,
-    EditComponent
+    EditComponent,
+    COSignUpComponent
   ],
   imports: [
     BrowserModule,
@@ -55,7 +59,9 @@ import { EditComponent } from './profile/edit/edit.component';
     MatSortModule,
     MatSnackBarModule,
     MatSidenavModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatSelectModule 
   ],
   providers: [DatePipe],
   bootstrap: [AppComponent]
