@@ -1,86 +1,40 @@
-<div class="container-center-horizontal">
-    <div class="cl-sign-up-screen screen">
-        <div class="overlap-group">
-            <img class="rectangle-23"
-                src="https://anima-uploads.s3.amazonaws.com/projects/60eb3038207ed0cf97df777d/releases/60fd9e5de2a43300d83dfebf/img/rectangle-23@1x.png" /><img
-                class="rectangle-17"
-                src="https://anima-uploads.s3.amazonaws.com/projects/60eb3038207ed0cf97df777d/releases/60eb316f72899abafae73743/img/rectangle-17@2x.svg" />
-            <h1 class="title roboto-normal-black-34px">Pinch for Clients</h1>
-            <p class="text-1 roboto-normal-black-16px2">
-                Pinch’s client profiles are for everyone and anyone looking for help from a professional. Our
-                comprehensive
-                search features allow you to find a trusted contractor in a wide variety of specialties to help you
-                finish any
-                project you want to take on. Reviews from other clients ensure that you find the most reliable and
-                trustworthy
-                contractor, while our chat function allows you to find someone compatible with your needs.
-                <br /><br />Pinch
-                also offers project management features that allow you to easily design and keep track of your projects
-                from
-                start to finish on your own schedule.
-            </p>
-            <div class="rectangle-26"></div>
-            <p class="text-4 roboto-normal-white-14px">See the latest update on our COVID-19 response.</p>
-            <div class="frame-76">
-                <div class="search-bar">
-                    <div class="active-1">
-                        <p class="text-5 valign-text-middle roboto-normal-black-16px-22">What are you looking to have
-                            done?</p>
-                        <img class="vector"
-                            src="https://anima-uploads.s3.amazonaws.com/projects/60eb3038207ed0cf97df777d/releases/60eb316f72899abafae73743/img/vector@2x.svg" />
-                    </div>
-                </div>
-                <div class="group-75">
-                    <div class="typography">
-                        <div class="become-a-contractor roboto-normal-black-16px2">Become a contractor</div>
-                    </div>
-                    <div class="typography-1">
-                        <div class="sign-up-log-in roboto-normal-black-16px2">Sign up/ Log in</div>
-                    </div>
-                </div>
-            </div>
-            <img class="content-typeicon-variantcircle"
-                src="https://anima-uploads.s3.amazonaws.com/projects/60eb3038207ed0cf97df777d/releases/60eb316f72899abafae73743/img/content-type-icon--variant-circle@2x.svg" />
+<div class="container">
+    <div class="header-section">
+        <div class="search">
+            <img src="assets/pinchLogo.jpg" alt="Logo goes here">
+            <input name="search">
+            <button mat-button href="">Become a Contractor</button>
+            <button mat-button href="">Sign Up/Login</button>
         </div>
-        <div class="dialog-content">
-            <div class="dialog-title">
-                <div class="create-an-account roboto-medium-black-20px">Create an Account</div>
-                <p class="text-2 roboto-normal-white-16px">
-                    <span class="span roboto-normal-black-16px-22">Already have an account? </span><span
-                        class="span-1 roboto-normal-heat-wave-16px">Log in.</span>
-                </p>
-            </div>
-            <div class="content">
-                <div class="variantoutlined-x-icontextfalse-1">
-                    <div class="active">
-                        <div class="x valign-text-middle roboto-normal-black-16px-32">Full name</div>
-                    </div>
-                </div>
-                <div class="variantoutlined-x-icontextfalse">
-                    <div class="active">
-                        <div class="x-1 valign-text-middle roboto-normal-black-16px-32">Username</div>
-                    </div>
-                </div>
-                <div class="variantoutlined-x-icontextfalse">
-                    <div class="active">
-                        <div class="x-2 valign-text-middle roboto-normal-black-16px-32">Email</div>
-                    </div>
-                </div>
-                <div class="variantoutlined-x-icontextfalse">
-                    <div class="active">
-                        <div class="x-3 valign-text-middle roboto-normal-black-16px-32">Password</div>
-                    </div>
-                </div>
-            </div>
-            <p class="text-3 roboto-normal-white-16px">
-                <span class="span roboto-normal-black-16px-22">You must agree to the</span><span
-                    class="span roboto-normal-heat-wave-16px">&nbsp;</span><span
-                    class="span-1 roboto-normal-heat-wave-16px">Terms and Conditions</span><span
-                    class="span roboto-normal-black-16px-22"> prior to registering your account.</span>
-            </p>
+        <div class="header-text">
+            <h1>Pinch for Clients</h1>
+            <p>Pinch's client profiles are for everyone and anyone looking for help from a professional. Our comprehensive search features allow you to find a trusted contractor in a wide variety of specialties to help you finish any project you want to take on. Reviews from other clients ensure that you find the most reliable and trustworthy contractor, while our chat function allows you to find someone compatible with your needs.</p> 
+
+            <p>Pinch also offers project management features that allow you to easily design and keep track of your projects from start to finish on your own schedule. </p>
         </div>
-        <div class="base-button">
-            <div class="submit roboto-medium-white-15px">SUBMIT</div>
+    </div>
+    <div class="info-section">
+        <div class="form-container">
+                <div class="form-column">
+                    <mat-form-field style="width: 80%; margin-left:auto; margin-right: auto;" appearance="outline">
+                        <mat-label>Full Name</mat-label>
+                        <input matInput name="fullname" required>
+                    </mat-form-field>
+                    <mat-form-field style="width: 80%; margin-left:auto; margin-right: auto;" class="" appearance="outline">
+                        <mat-label>Username</mat-label>
+                        <input matInput name="username" required>
+                    </mat-form-field>
+                    <mat-form-field style="width: 80%; margin-left:auto; margin-right: auto;" class="" appearance="outline">
+                        <mat-label>Email</mat-label>
+                        <input matInput name="email" required>
+                    </mat-form-field>
+                    <mat-form-field style="width: 80%; margin-left:auto; margin-right: auto;" class="" appearance="outline">
+                        <mat-label>Password</mat-label>
+                        <input matInput type="password" name="password" required>
+                    </mat-form-field>
+                </div>
         </div>
+        <p>You must agree to the <a href="">Terms and Conditions</a> prior to registering for your account</p>
+        <button mat-raised-button class="popular-button">SUBMIT</button>
     </div>
 </div>

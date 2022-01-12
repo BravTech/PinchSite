@@ -17,6 +17,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button'; 
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import { DatePipe } from '@angular/common';
 import { LoginComponent } from './login/login.component';
 import { LandingComponent } from './landing/landing.component';
@@ -29,6 +30,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ViewComponent } from './profile/view/view.component';
 import { EditComponent } from './profile/edit/edit.component';
 import { COSignUpComponent } from './cosign-up/cosign-up.component';
+import { COSearchComponent } from './cosearch/cosearch.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,8 @@ import { COSignUpComponent } from './cosign-up/cosign-up.component';
     DashboardComponent,
     ViewComponent,
     EditComponent,
-    COSignUpComponent
+    COSignUpComponent,
+    COSearchComponent
   ],
   imports: [
     BrowserModule,
@@ -61,7 +64,8 @@ import { COSignUpComponent } from './cosign-up/cosign-up.component';
     MatSidenavModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatSelectModule 
+    MatSelectModule,
+    MatButtonToggleModule
   ],
   providers: [DatePipe],
   bootstrap: [AppComponent]
