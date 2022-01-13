@@ -1,0 +1,162 @@
+body, .resultPane{
+    display: flex;
+    flex-direction: column;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 98%;
+    background-color: #E5E5E5;
+}
+
+.searchBar, .filters, .resultPane{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filters{
+    justify-content: start;
+}
+
+.searchBar .searchInput{
+    flex-grow: 2;
+}
+.searchBar, .filters, .result, .resultBtns{
+    display: flex;
+    flex-direction: row;
+}
+
+.searchInput{
+    margin-right: 10px;
+    margin-top: 0;
+}
+.resultPane{
+    height: 100%;
+}
+
+.result{
+    height: 20%;
+    margin-top: 10px;
+    outline: 1px solid rgba(192,192,192,0.5);
+    border-radius: 4px;
+    background-color: white;
+}
+
+.imgPane{
+    min-height: 100%;
+    max-width: 25%;
+}
+
+.filters ::ng-deep .mat-form-field-appearance-outline{
+    height:100%;
+    padding:0;
+    margin: 1px;
+}
+
+.filters ::ng-deep .mat-form-field-appearance-outline .mat-form-field-wrapper{
+    margin-right: 10px;
+}
+
+::ng-deep .mat-button-toggle-group{
+    height: 100%;
+    margin-top: 5px;
+}
+
+.resultBtns button{
+    margin-right: 10px;
+}
+
+.infoPane{
+    padding: 10px;
+}
+
+.infoPane h3{
+    color:silver;
+    font-size: 10pt;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+
+.infoPane h2{
+    margin-top:0;
+}
+
+.imgPane img{
+    width: 100%;
+    height: 100%;
+}
+
+.view-details{
+    background-color: #406D96;
+    border-radius: 4px;
+}
+.get-in-touch{
+    background-color: #D8E8E8;
+    color:#406D96;
+    border-radius: 4px;
+}
+
+.timeframe, .cost{
+    border-radius: 4px;
+    border: 1px solid #406D96 !important;
+    color: #406D96;
+}
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: #A8D0DA;
+    background-color: white;
+    border-radius: 4px;
+  }
+
+::ng-deep .mat-button-toggle-checked{
+    background-color: #A8D0DA !important;
+    color: #406D96 !important;
+}
+
+::ng-deep .mat-button-toggle-group{
+    border: 1px solid #406D96 !important;
+}
+
+::ng-deep .mat-button-toggle-appearance-standard{
+    color: #A8D0DA;
+}
+::ng-deep .select.mat-input-element:disabled {
+    color: silver !important;
+  }
+
+::ng-deep .mat-button-toggle-appearance-standard .mat-button-toggle-label-content{
+    padding: 0.25em 1em 0.25em 1em !important;
+}
+.header{
+    height: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    font-size:12;
+    display:flex;
+    white-space: nowrap;
+    flex-direction: row;
+    float: left;
+    
+}
+
+.header img{
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header div{
+    flex-grow: 2;
+}
+
+.header button{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 50%;
+}
+

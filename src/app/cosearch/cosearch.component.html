@@ -1,0 +1,91 @@
+<body>
+    <div class="header">
+        <img src="assets/pinchLogo.jpg" alt="Logo goes here">
+        <div></div>
+        <button mat-button href="">Become a Contractor</button>
+        <button mat-button href="">Sign Up/Login</button>
+    </div>
+    <div class="searchBar">
+        <mat-form-field class="searchInput" appearance="outline">
+            <mat-label>Search</mat-label>
+            <input matInput class="inputBox" name="search">
+        </mat-form-field>
+        <mat-form-field class="" appearance="outline">
+            <mat-label>Location</mat-label>
+            <input matInput name="location">
+        </mat-form-field>
+    </div>
+    <div class="filters">
+        <mat-form-field appearance="outline">
+            <mat-label>Filters</mat-label>
+            <mat-select matNativeControl>
+                <mat-option value="" disabled selected>Filters</mat-option>
+                <mat-option value="">Option 1</mat-option>
+                <mat-option value="">Option 2</mat-option>
+              </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Sort By</mat-label>
+            <mat-select matNativeControl>
+              <mat-option value="" disabled selected>Sort by</mat-option>
+              <mat-option value="">Option 1</mat-option>
+              <mat-option value="">Option 2</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+            <mat-button-toggle value="Contractors">Contractors</mat-button-toggle>
+            <mat-button-toggle value="RFPS">&nbsp;&nbsp;&nbsp;RFPS&nbsp;&nbsp;&nbsp;</mat-button-toggle>
+        </mat-button-toggle-group>
+          
+    </div>
+    <div class="resultPane" id="resultPane">
+        <div class="result">
+            <div class="imgPane">
+                <img src="assets/pinchLogo.jpg" alt="Logo goes here">
+            </div>
+            <div class="infoPane">
+                <h3>Type</h3>
+                <h2>Title</h2>
+                <div class = "resultBtns">
+                    <button mat-raised-button class="timeframe">Time</button>
+                    <button mat-raised-button class="cost">Cost</button>
+                    <button mat-raised-button class="view-details" color="primary">VIEW DETAILS</button>
+                    <button mat-raised-button class="get-in-touch" color="primary">GET IN TOUCH</button>
+                </div>
+                <p>Description goes here</p>
+            </div>
+        </div>
+        <div class="result">
+            <div class="imgPane">
+                <img src="assets/pinchLogo.jpg" alt="Logo goes here">
+            </div>
+            <div class="infoPane">
+                <h3>Type</h3>
+                <h2>Title</h2>
+                <div class = "resultBtns">
+                    <button mat-raised-button class="timeframe">Time</button>
+                    <button mat-raised-button class="cost">Cost</button>
+                    <button mat-raised-button class="view-details" color="primary">VIEW DETAILS</button>
+                    <button mat-raised-button class="get-in-touch" color="primary">GET IN TOUCH</button>
+                </div>
+                <p>Description goes here</p>
+            </div>
+        </div>
+        <div class="result">
+            <div class="imgPane">
+                <img src="assets/pinchLogo.jpg" alt="Logo goes here">
+            </div>
+            <div class="infoPane">
+                <h3>Type</h3>
+                <h2>Title</h2>
+                <div class = "resultBtns">
+                    <button mat-raised-button class="timeframe">Time</button>
+                    <button mat-raised-button class="cost">Cost</button>
+                    <button mat-raised-button class="view-details" color="primary">VIEW DETAILS</button>
+                    <button mat-raised-button class="get-in-touch" color="primary">GET IN TOUCH</button>
+                </div>
+                <p>Description goes here</p>
+            </div>
+        </div>
+    </div>
+</body>
