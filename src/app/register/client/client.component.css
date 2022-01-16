@@ -4,8 +4,8 @@
 }
 
 .header-section{
-  background-image: url("../../images/registerBackground.png");
-  background-size:cover;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.75) 71.15%, rgba(255, 255, 255, 0.25) 100%), url("../../images/registerBackground_client.png");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
